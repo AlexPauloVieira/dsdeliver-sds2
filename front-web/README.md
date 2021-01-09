@@ -1,46 +1,85 @@
-# Getting Started with Create React App
+# DS Deliver
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sobre o projeto
 
-## Available Scripts
+https://sd2-alex.netlify.app/
 
-In the project directory, you can run:
+DS Deliver é uma aplicação full stack web e mobile construída durante a 2ª edição da **Semana DevSuperior** (#sds2), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
 
-### `npm start`
+O projeto consiste em um sistema de registro e entrega de pedidos. Utilizamos Java com Spring Boot, e implantação no Heroku para a parte backend. No frontend utilizamos React com TypeScript. Na aplicação móvel utilizamos React Native também com TypeScript.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Layout mobile
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![Mobile 1]#underconstruction !
 
-### `npm test`
+## Layout web
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Web 1](https://github.com/AlexPauloVieira/dsdeliver-sds2/blob/main/dsdeliverweb.gif)
 
-### `npm run build`
+## Modelo conceitual
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Image](https://raw.githubusercontent.com/devsuperior/sds2/master/assets/modelo-conceitual.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Tecnologias utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Back end
 
-### `npm run eject`
+- Java
+- Spring Boot
+- JPA / Hibernate
+- Maven
+- Postman
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Front end
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- HTML / CSS / TypeScript
+- ReactJS
+- React Native
+- Expo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Implantação em produção
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Back end: Heroku
+- Front end web: Netlify
+- Banco de dados: Postgresql e H2
 
-## Learn More
+# Como executar o projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Back end
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Pré-requisitos: Java 11
+
+```bash
+# clonar repositório
+git clone https://github.com/AlexPauloVieira/dsdeliver-sds2
+
+# entrar na pasta do projeto back end
+cd backend
+
+# executar o projeto
+./mvnw spring-boot:run
+```
+
+## Front end web
+
+Pré-requisitos: npm / yarn
+
+```bash
+# clonar repositório
+git clone https://github.com/AlexPauloVieira/dsdeliver-sds2
+
+# entrar na pasta do projeto front end web
+cd front-web
+
+# instalar dependências
+npm install || yarn install
+
+# executar o projeto
+npm start || yarn start
+```
+
+# Autor
+
+Alex Paulo Tadeu Vieira
+
+https://www.linkedin.com/in/alex-paulo-tadeu-vieira-161b8b202/
