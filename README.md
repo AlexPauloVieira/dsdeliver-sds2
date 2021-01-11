@@ -10,7 +10,7 @@ O projeto consiste em um sistema de registro e entrega de pedidos. Utilizamos Ja
 
 ## Layout mobile
 
-![Mobile 1]#underconstruction !
+![Mobile 1](https://github.com/AlexPauloVieira/dsdeliver-sds2/blob/main/dsdelivermobile.gif)
 
 ## Layout web
 
