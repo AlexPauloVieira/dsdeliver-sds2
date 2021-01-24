@@ -20,6 +20,9 @@ O projeto consiste em um sistema de registro e entrega de pedidos. Utilizamos Ja
 
 ![Image](https://raw.githubusercontent.com/devsuperior/sds2/master/assets/modelo-conceitual.png)
 
+## Certificado de Participação
+![Certificado](https://github.com/AlexPauloVieira/dsdeliver-sds2/blob/main/docs/assets/sds2-certificado.png)
+
 # Tecnologias utilizadas
 
 ## Back end
